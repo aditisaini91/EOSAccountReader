@@ -1,0 +1,109 @@
+[{
+    "account_name": "genialwombat",
+    "head_block_num": 101671135,
+    "head_block_time": "2020-01-24T09:54:04.000",
+    "privileged": false,
+    "last_code_update": "2019-12-16T09:18:46.500",
+    "created": "2019-04-25T08:09:21.500",
+    "core_liquid_balance": "13691.7086 EOS",
+    "ram_quota": 945461,
+    "net_weight": 1000,
+    "cpu_weight": 7001482,
+    "net_limit": {
+        "used": 289,
+        "available": 99797,
+        "max": 100086
+    },
+    "cpu_limit": {
+        "used": 1331,
+        "available": 60435,
+        "max": 61766
+    },
+    "ram_usage": 478325,
+    "permissions": [{
+        "perm_name": "active",
+        "parent": "owner",
+        "required_auth": {
+            "threshold": 1,
+            "keys": [{
+                "key": "EOS6a9CiWhhq1cN3n6Dn6AjLpshAP7MAdQiTf98411DGR6qCZvBsx",
+                "weight": 1
+            }],
+            "accounts": [{
+                "permission": {
+                    "actor": "genialwombat",
+                    "permission": "eosio.code"
+                },
+                "weight": 1
+            }],
+            "waits": []
+        }
+    }, {
+        "perm_name": "msig",
+        "parent": "active",
+        "required_auth": {
+            "threshold": 1,
+            "keys": [{
+                "key": "EOS8KYAgkbZFvZzdBYqbTDXmiN783D1cBLYVf8fphRXxw4L3zDgkS",
+                "weight": 1
+            }],
+            "accounts": [],
+            "waits": []
+        }
+    }, {
+        "perm_name": "ops",
+        "parent": "active",
+        "required_auth": {
+            "threshold": 1,
+            "keys": [{
+                "key": "EOS77CKUbsYgQYuno5YtQxf9szZDXMeffvex9bTevRYaXanDeVn51",
+                "weight": 1
+            }],
+            "accounts": [],
+            "waits": []
+        }
+    }, {
+        "perm_name": "owner",
+        "parent": "",
+        "required_auth": {
+            "threshold": 1,
+            "keys": [{
+                "key": "EOS72rwufcJNbfmLn7F15idfvSdHgSMjQr5wJajJSebDeUw5XKS1m",
+                "weight": 1
+            }],
+            "accounts": [],
+            "waits": []
+        }
+    }],
+    "total_resources": {
+        "owner": "genialwombat",
+        "net_weight": "0.1000 EOS",
+        "cpu_weight": "700.1482 EOS",
+        "ram_bytes": 944061
+    },
+    "self_delegated_bandwidth": {
+        "from": "genialwombat",
+        "to": "genialwombat",
+        "net_weight": "0.0000 EOS",
+        "cpu_weight": "200.0037 EOS"
+    },
+    "refund_request": {
+        "owner": "genialwombat",
+        "request_time": "2020-01-22T22:53:56",
+        "net_amount": "13.4000 EOS",
+        "cpu_amount": "76.9697 EOS"
+    },
+    "voter_info": {
+        "owner": "genialwombat",
+        "proxy": "proxy4nation",
+        "producers": [],
+        "staked": 204418777,
+        "last_vote_weight": "232196104391722.31250000000000000",
+        "proxied_vote_weight": "667159920527.92456054687500000",
+        "is_proxy": 0,
+        "flags1": 0,
+        "reserved2": 0,
+        "reserved3": "0 "
+    },
+    "rex_info": null
+}]
